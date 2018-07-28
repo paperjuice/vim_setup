@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 if [ yum list installed git > /dev/null 2>&1 ]; then
   yum -y install git;

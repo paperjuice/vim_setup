@@ -39,6 +39,8 @@ git clone https://github.com/ervandew/supertab.git ~/.vim/bundle/supertab
 git clone https://github.com/tpope/vim-fugitive.git ~/.vim/bundle/vim-fugitive && \
 vim -u NONE -c "helptags vim-fugitive/doc" -c q
 
+#vim file search
+git clone https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/bundle/ctrlp
 
 #ack search
 yum -y install epel-release && \

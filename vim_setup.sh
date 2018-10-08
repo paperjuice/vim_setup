@@ -30,6 +30,7 @@ if [[ $P_MANAGER == yum ]]; then
 fi
 
 #install vim
+#TODO: Skip if it exists
 $P_MANAGER $FLAG install vim
 
 #install pathogen

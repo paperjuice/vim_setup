@@ -16,6 +16,7 @@ Plus, the following packages:
 * ###### [vim-nerdtree](https://github.com/scrooloose/nerdtree) - Directory explorer
 * ###### [vim-supertab](https://github.com/ervandew/supertab) - Autocomplete by pressing the TAB key
 * ###### [vim-fugitive](https://github.com/tpope/vim-fugitive) - Git integration
+* ###### [ctrlp.vim](https://github.com/ctrlpvim/ctrlp.vim) - File finder
 * ###### [ack.vim](https://github.com/mileszs/ack.vim) - Ack integration
 
 

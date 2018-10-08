@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 
 #add MAC user as in /Users/<user>/"
 MAC_USER=${1:-""}

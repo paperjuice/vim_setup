@@ -41,8 +41,11 @@ else
   echo "Pathogen already exists."
 fi
 
-#move my vim configuration
-cp .vimrc ~/
+
+#copy vimrc configuration
+git clone https://github.com/paperjuice/.vimrc.git ~/vimrc/
+mv ~/vimrc/.vimrc ~/
+rm -rf ~/vimrc/
 
 #vim elixir
 if [ ! -d "/Users/${MAC_USER}/.vim/bundle/vim-elixir" ]; then

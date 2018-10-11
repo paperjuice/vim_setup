@@ -89,9 +89,12 @@ else
   echo "Vim-fugitive already exists."
 fi
 
+#install extra package enterprise linux for centos
+if [[ $P_MANAGER == yum ]]; then
+  $P_MANAGER $FLAG install epel-release
+fi
+
 #ack search
-#TODO: this dont exist in brew. Ignore or find alternative
-$P_MANAGER $FLAG install epel-release && \
 $P_MANAGER $FLAG install ack
 if [ ! -d "/Users/${MAC_USER}/.vim/bundle/ack.vim" ]; then
   git clone https://github.com/mileszs/ack.vim.git ~/.vim/bundle/ack.vim

@@ -4,6 +4,7 @@
 This is just a tiny bash script that I run whenever I want to setup vim on a new machine. </br>
 This is, of course, what I *personally* like to have for my vim setup. </br>
 I can be ran on both centos or mac(with brew).
+The .vimrc in this repo is deprecated. I have a separate repo with the .vimrc found [here](https://github.com/paperjuice/.vimrc.git)
 
 
 ### What it contains?
